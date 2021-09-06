@@ -24,7 +24,7 @@ Also, we have provided two successful training environment data--`[-1,2,0]_Obsta
 Ⅱ. Run the file `Plot_Arm_Movement` to visualize the result. <br>
 
 
-Here is the sample of terminal at [-1, 2, 0], the side of obstacle is 0.9:
+Here is the sample of terminal at [-1, 2, 0], the side of obstacle is 0.9(start in a bit strange pose could see its ability to adjust its pose obviously):
 <div align=center>
 <img src='https://github.com/Ys-Jia/Q-Six_axis-Robotic_Arm/blob/main/(-1%2C%202%2C%200)Sample.gif' width="600" height="400">  
 </div>
