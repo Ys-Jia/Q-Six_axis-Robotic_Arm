@@ -6,7 +6,7 @@ tingzhi = 0;
 finite_states = 100000;
 iterations = 10000;
 max_tolerance = 10000;
-visualize = 0; % whether keep visual
+visualize = 0; % whether visualize, increase time consuming!
 
 while episode <= 1
     ALPHA = 0.05;
