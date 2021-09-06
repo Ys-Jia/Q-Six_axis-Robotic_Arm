@@ -1,11 +1,11 @@
 
 %ini_robot 
-%Path_Schedule  % Terminal path planning
+Path_Schedule  % Terminal path planning
 overflow = 0; flow_pace = 1; theta = 1; pppp = 1; angle_change = 1;
 finite_states = 100000; iterations = 10000; max_tolerance = 10000;
 re_sche_vision = 1;
 
-x1_1=[ 0 1 2 3 4 -1 -2 -3]; % permutation and combination, break down each axis to 45¡ã, from -135¡ãto 180¡ã
+x1_1=[ 0 1 2 3 4 -1 -2 -3]; % permutation and combination, break down each axis to 45Â¡Ã£, from -135Â¡Ã£to 180Â¡Ã£
 x2_2=[ 0 1 2 3 4 -1 -2 -3]; 
 x3_3=[ 0 1 2 3 4 -1 -2 -3]; 
 [x3_3,x2_2,x1_1] = ndgrid(x3_3,x2_2,x1_1);
@@ -195,7 +195,7 @@ while kkk <= 50
                 l = l+1;
                 pick_angle_mark = 1;
                 weizi_n = 1;
-                theta = 1; % the number of sets in marker_weizi_rough£¬1 represents none
+                theta = 1; % the number of sets in marker_weizi_roughÂ£Â¬1 represents none
                 marker_weizi_rough(:,:) = 0;
                 pause(1)
             end
@@ -320,7 +320,7 @@ while kkk <= 50
                 end
             end
             
-            if c==4 %yÏÂ
+            if c==4 %yÃÃ‚
                 if place(i,2) > -5
                     place(i+1,:) = place(i,:)-[0,yyy,0];
                 else
